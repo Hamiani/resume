@@ -1,0 +1,94 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #444;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Courier New', Courier, monospace;
+    ;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row
+}
+
+.left-items {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f4f6ff;
+    width: 40%;
+    justify-content: center;
+}
+
+.right-items {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    color: white;
+    background-color: #30475e;
+}
+
+.footer {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper-child {
+    border-radius: 120px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.p-top-20 {
+    padding-top: 20px;
+}
+
+@media (max-width: 770px) {
+    .wrapper {
+        display: inline
+    }
+    .right-items {
+        width: 100%
+    }
+    .left-items {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+}
