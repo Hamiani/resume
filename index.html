@@ -4,15 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <title>Mon CV</title>
     <meta name="description" content="A propos de moi">
     <meta name="keywords" content="web,developer,resume" />
     <meta name="author" content="Mon nom">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -37,27 +39,141 @@
             <div>
                 <h3>Â propos</h3>
                 <article class="justify-text">
-                    En tant qu'ingénieur logiciel R&D, j'ai une très bonne expérience dans le développement de diverses applications utilisant SpringBoot, Node js et React JS. J'aime apprendre de nouvelles technologies et je peux travailler sur tout type de projets. En plus
-                    de cela, je suis flexible et toujours désireux d'améliorer mes compétences en participant à différents événements ou séminaires. Cela me rend également désireux de suivre les dernières tendances/technologies de l'industrie et de les
+                    En tant qu'ingénieur logiciel R&D, j'ai une très bonne expérience dans le développement de diverses
+                    applications utilisant SpringBoot, Node js et React JS. J'aime apprendre de nouvelles technologies
+                    et je peux travailler sur tout type de projets. En plus
+                    de cela, je suis flexible et toujours désireux d'améliorer mes compétences en participant à
+                    différents événements ou séminaires. Cela me rend également désireux de suivre les dernières
+                    tendances/technologies de l'industrie et de les
                     adopter dans ma journée de travail.
                 </article>
             </div>
             <div>
                 <h1>COMPÉTENCES TECHNIQUES</h1>
                 <ul>
-                    <li>Front-end: JavaScript (React Js, React Native, ES6,</li>
-                    <li>Hooks ,redux, selectors).</li>
-                    <li>Back-end: java/JEE (SpringBoot) ,TypeScript</li>
-                    <li>NodeJS,Graphql.</li>
-                    <li>databases : MYSQL,PostgreSQL.</li>
-                    <li>Unit Test: JUnit, Jest.</li>
-                    <li>Packages Manager: Maven, NPM.</li>
-                    <li>Conception : UML.</li>
-                    <li>Version-control system: GIT.</li>
-                    <li>Project management: Scrum,Jira, Slack.</li>
-                    <li>OS: LINUX (Ubuntu), Windows.</li>
-                    <li>Softwares/tools : Docker, Draw.io, VsCode,</li>
-                    <li>Android Studio, IntelliJ IDEA</li>
+                    <li class="tooltip">Front-end: JavaScript (React Js, React Native, ES6,
+                        </br>
+                        <img src="stare2.jpeg" id='frontEnd1' onclick="rate(1,'frontEnd')" />
+                        <img src="stare2.jpeg" id='frontEnd2' onclick="rate(2,'frontEnd')" />
+                        <img src="stare2.jpeg" id='frontEnd3' onclick="rate(3,'frontEnd')" />
+                        <img src="stare2.jpeg" id='frontEnd4' onclick="rate(4,'frontEnd')" />
+                        <img src="stare2.jpeg" id='frontEnd5' onclick="rate(5,'frontEnd')" />
+                        </br>
+                        <button onclick="showStuff('reactDetail')">Détails</button>
+                        <span class="tooltiptext">Front-end: JavaScript (React Js, React Native, ES6,Hooks ,redux,
+                            selectors)</span>
+                        <article id="reactDetail" class="highlight-left" style="display: none;">React est une
+                            bibliothèque JavaScript utilisée pour construire des composants d'interface utilisateur
+                            réutilisables. Selon la documentation officielle de React, la définition est la suivante -
+                            React est une bibliothèque permettant
+                            de construire des interfaces utilisateur composables. Elle encourage la création de
+                            composants d'interface utilisateur réutilisables, qui présentent des données qui évoluent
+                            dans le temps. Beaucoup de gens utilisent React comme
+                            le V de MVC (Modèle-Vue-Contrôleur). React fait abstraction du DOM, offrant un modèle de
+                            programmation plus simple et de meilleures performances. React peut également effectuer un
+                            rendu sur le serveur à l'aide de Node, et il
+                            peut alimenter des applications natives à l'aide de React Native. React met en œuvre un flux
+                            de données réactif unidirectionnel, ce qui réduit le nombre d'erreurs et facilite le
+                            raisonnement par rapport à la liaison de données
+                            traditionnelle.
+                        </article>
+                    </li>
+                    <li class="tooltip">
+                        Back-end: java/JEE (SpringBoot),TypeScript,NodeJS,Graphql
+                        <span class="tooltiptext">Back-end: java/JEE (SpringBoot) ,TypeScript,NodeJS,Graphql.</span>
+                        </br>
+                        <img src="stare2.jpeg" id='backEnd1' onclick="rate(1,'backEnd')" />
+                        <img src="stare2.jpeg" id='backEnd2' onclick="rate(2,'backEnd')" />
+                        <img src="stare2.jpeg" id='backEnd3' onclick="rate(3,'backEnd')" />
+                        <img src="stare2.jpeg" id='backEnd4' onclick="rate(4,'backEnd')" />
+                        <img src="stare2.jpeg" id='backEnd5' onclick="rate(5,'backEnd')" />
+                        </br>
+                        <button onclick="showStuff('springDetail')">Détails</button>
+                        <article id="springDetail" class="highlight-left" style="display: none;">Java Spring Boot
+                            (Spring Boot) is a tool that makes developing web application and microservices with Spring
+                            Framework faster and easier through three core capabilities: Autoconfiguration. An
+                            opinionated approach to configuration.
+                            The ability to create standalone applications.</article>
+                    </li>
+                    <li class="tooltip"> databases : MYSQL,PostgreSQL.
+                        <span class="tooltiptext">databases : MYSQL,PostgreSQL.</span>
+                        </br>
+                        <img src="stare2.jpeg" id='databases1' onclick="rate(1,'databases')" />
+                        <img src="stare2.jpeg" id='databases2' onclick="rate(2,'databases')" />
+                        <img src="stare2.jpeg" id='databases3' onclick="rate(3,'databases')" />
+                        <img src="stare2.jpeg" id='databases4' onclick="rate(4,'databases')" />
+                        <img src="stare2.jpeg" id='databases5' onclick="rate(5,'databases')" />
+                    </li>
+                    </br>
+                    <li class="tooltip">Unit Test: JUnit, Jest.
+                        <span class="tooltiptext">Unit Test: JUnit, Jest.</span>
+                        </br>
+                        <img src="stare2.jpeg" id='unitTest1' onclick="rate(1,'unitTest')" />
+                        <img src="stare2.jpeg" id='unitTest2' onclick="rate(2,'unitTest')" />
+                        <img src="stare2.jpeg" id='unitTest3' onclick="rate(3,'unitTest')" />
+                        <img src="stare2.jpeg" id='unitTest4' onclick="rate(4,'unitTest')" />
+                        <img src="stare2.jpeg" id='unitTest5' onclick="rate(5,'unitTest')" />
+                    </li>
+                    </br>
+                    <li class="tooltip">Packages Manager: Maven, NPM.
+                        <span class="tooltiptext">Packages Manager: Maven, NPM.</span>
+                        </br>
+                        <img src="stare2.jpeg" id='packageManager1' onclick="rate(1,'packageManager')" />
+                        <img src="stare2.jpeg" id='packageManager2' onclick="rate(2,'packageManager')" />
+                        <img src="stare2.jpeg" id='packageManager3' onclick="rate(3,'packageManager')" />
+                        <img src="stare2.jpeg" id='packageManager4' onclick="rate(4,'packageManager')" />
+                        <img src="stare2.jpeg" id='packageManager5' onclick="rate(5,'packageManager')" />
+                    </li>
+                    </br>
+                    <li class="tooltip">Conception : UML.
+                        <span class="tooltiptext">Conception : UML.</span>
+                        </br>
+                        <img src="stare2.jpeg" id='conception1' onclick="rate(1,'conception')" />
+                        <img src="stare2.jpeg" id='conception2' onclick="rate(2,'conception')" />
+                        <img src="stare2.jpeg" id='conception3' onclick="rate(3,'conception')" />
+                        <img src="stare2.jpeg" id='conception4' onclick="rate(4,'conception')" />
+                        <img src="stare2.jpeg" id='conception5' onclick="rate(5,'conception')" />
+                    </li>
+                    </br>
+                    <li class="tooltip">Version-control system: GIT.
+                        <span class="tooltiptext">Version-control system: GIT.</span>
+                        </br>
+                        <img src="stare2.jpeg" id='git1' onclick="rate(1,'git')" />
+                        <img src="stare2.jpeg" id='git2' onclick="rate(2,'git')" />
+                        <img src="stare2.jpeg" id='git3' onclick="rate(3,'git')" />
+                        <img src="stare2.jpeg" id='git4' onclick="rate(4,'git')" />
+                        <img src="stare2.jpeg" id='git5' onclick="rate(5,'git')" />
+                    </li>
+
+                    <li class="tooltip">Project management: Scrum,Jira, Slack.
+                        <span class="tooltiptext">Project management: Scrum,Jira, Slack.</span>
+                        </br>
+                        <img src="stare2.jpeg" id='management1' onclick="rate(1,'management')" />
+                        <img src="stare2.jpeg" id='management2' onclick="rate(2,'management')" />
+                        <img src="stare2.jpeg" id='management3' onclick="rate(3,'management')" />
+                        <img src="stare2.jpeg" id='management4' onclick="rate(4,'management')" />
+                        <img src="stare2.jpeg" id='management5' onclick="rate(5,'management')" />
+                    </li>
+                    <li class="tooltip">OS: LINUX (Ubuntu), Windows.
+                        <span class="tooltiptext">OS: LINUX (Ubuntu), Windows.</span>
+                        </br>
+                        <img src="stare2.jpeg" id='os1' onclick="rate(1,'os')" />
+                        <img src="stare2.jpeg" id='os2' onclick="rate(2,'os')" />
+                        <img src="stare2.jpeg" id='os3' onclick="rate(3,'os')" />
+                        <img src="stare2.jpeg" id='os4' onclick="rate(4,'os')" />
+                        <img src="stare2.jpeg" id='os5' onclick="rate(5,'os')" />
+                    </li>
+                    </br>
+                    <li class="tooltip">Softwares/tools : Docker, Draw.io, VsCode,Android Studio, IntelliJ IDEA
+                        <span class="tooltiptext">
+                            Softwares/tools : Docker, Draw.io, VsCode,Android Studio, IntelliJ IDEA</span>
+                        </br>
+                        <img src="stare2.jpeg" id='tools1' onclick="rate(1,'tools')" />
+                        <img src="stare2.jpeg" id='tools2' onclick="rate(2,'tools')" />
+                        <img src="stare2.jpeg" id='tools3' onclick="rate(3,'tools')" />
+                        <img src="stare2.jpeg" id='tools4' onclick="rate(4,'tools')" />
+                        <img src="stare2.jpeg" id='tools5' onclick="rate(5,'tools')" />
+                    </li>
                 </ul>
             </div>
             <div>
@@ -94,16 +210,19 @@
                 <span>November-2019 jusqu’à Août 2021 Casablanca, Maroc.</span>
                 <ul>
                     <li>
-                        Contribution dans un projet de développement d'un site web et une application mobile (B2B) d'achat en ligne des pièces d’automobile du client AutoPlus.
+                        Contribution dans un projet de développement d'un site web et une application mobile (B2B)
+                        d'achat en ligne des pièces d’automobile du client AutoPlus.
                         <ul>
                             <li>
-                                une architecture micro-service qui nous a permis de séparer le service d'authentification,le service de notification et le service gate des apis.
+                                une architecture micro-service qui nous a permis de séparer le service
+                                d'authentification,le service de notification et le service gate des apis.
                             </li>
                             <li>
                                 une couche qui communique et reçoit les données de l'api Tecalliance.
                             </li>
                             <li>
-                                une couche de synchronisation de la base de données interne du client avec notre base de données.
+                                une couche de synchronisation de la base de données interne du client avec notre base de
+                                données.
                             </li>
                             <li>
                                 Développement des API's Graphql.
@@ -122,42 +241,66 @@
                                     Environnement de développement des APIs : Postman,Graphql
                             </li>
                             <li>Event Sourcing : kafka</li>
-                            </ul>
-                    </li>
-                    </ul>
-                    </li>
-                    <li>
-                        Intégration des API's REST dans une application mobile concernant le secteur bancaire dans une mission externe .
-                        <ul>
-                            <li>Environnement Techniques:
-                                <ul>
-                                    <li>React Native</li>
-                                    <li>Redux,Saga.</li>
-                                    <li>GitLab.</li>
-                                    <li>Swagger.</li>
-                                    <li>Android Studio</li>
-                                </ul>
-                            </li>
                         </ul>
                     </li>
-                    <li>
-                        La mise en place d'un simulateur de crédit (back-office / front-office) et la gestion de la partie Front-office de site web du client BOA
+                </ul>
+                </li>
+                <li>
+                    Intégration des API's REST dans une application mobile concernant le secteur bancaire dans une
+                    mission externe .
+                    <ul>
+                        <li>Environnement Techniques:
+                            <ul>
+                                <li>React Native</li>
+                                <li>Redux,Saga.</li>
+                                <li>GitLab.</li>
+                                <li>Swagger.</li>
+                                <li>Android Studio</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    La mise en place d'un simulateur de crédit (back-office / front-office) et la gestion de la partie
+                    Front-office de site web du client BOA
+                    <ul>
+                        <li>Développement des composants web.</li>
+                        <li>Développement des API's Rest.</li>
+                        <li>Intégrations des API's.</li>
+                        <li>Écriture des Test de UI.</li>
+                        <li>Écriture des Test des reducers.</li>
+                        <li>Gestion de projet : Scrum, Jira, Slack.</li>
+                        <li>Environnement Techniques :
+                            <ul>
+                                <li> React js .</li>
+                                <li> Express ,PostgreSQL</li>
+                                <li> Redux,Saga.</li>
+                                <li> Git (Bitbucket)</li>
+                                <li> Jest</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            <div>
+                <h3>DEVELOPPEUR FULL-STACK À BEREXIA</h3>
+                <span>Juillet-2019 jusqu’à Septembre 2019 Casablanca, Maroc.</span>
+                <button onclick="showStuff('berexiaDetail');">Détails</button>
+                <ul id="berexiaDetail" class="highlight-right" style="display: none;">
+                    <li>Contribution dans un projet d'assurance pour le calcul des risques en développant des API’s REST
+                        pour consommer une base de données externe (RMS) , la mise en place des tests unitaires, ainsi
+                        que le développement des composants web.
+                    </li>
+                    <li>Environnement Techniques :
                         <ul>
-                            <li>Développement des composants web.</li>
-                            <li>Développement des API's Rest.</li>
-                            <li>Intégrations des API's.</li>
-                            <li>Écriture des Test de UI.</li>
-                            <li>Écriture des Test des reducers.</li>
-                            <li>Gestion de projet : Scrum, Jira, Slack.</li>
-                            <li>Environnement Techniques :
-                                <ul>
-                                    <li> React js .</li>
-                                    <li> Express ,PostgreSQL</li>
-                                    <li> Redux,Saga.</li>
-                                    <li> Git (Bitbucket)</li>
-                                    <li> Jest</li>
-                                </ul>
+                            <li>Back-end : java ,springboot.
                             </li>
+                            <li>Front-end: typeScript, Angular
+                            </li>
+                            <li>Unit test : JUnit.</li>
+                            <li>Système de contrôle de version : GitLab</li>
+                            <li>Environnement de développement des APIs : Postman</li>
                         </ul>
                     </li>
                 </ul>
@@ -167,6 +310,33 @@
                 <h3>UNIVERSITÉ DE BRETAGNE OCCIDENTALE (UBO-DOSI)</h3>
                 <h2>Master 2 Informatique (2021-2022)</h2>
                 <span>Filière : Développement Logiciel des systèmes d'information</span>
+                <button onclick="showStuff('uboDetail');">Détails</button>
+                <article id="uboDetail" class="highlight-right" style="display: none; ">
+                    Le parcours DOSI "Développement lOgiciel des Systèmes d'Information" du Master Informatique est un
+                    double diplôme entre l'UBO et le Maroc : 10 universités (Agadir, Casablanca, El Jadida, Fès,
+                    Kenitra, Marrakech, Oujda, Settat, Rabat et Tanger) et 4 écoles
+                    d'ingénieurs ENSA (Agadir, Kenitra, Oujda et Tanger). Ce parcours de Master propose une mobilité de
+                    formation en Master 2ème année auprès des étudiants marocains de 1ère année de Master Informatique
+                    ou de 4ème année d’Ecole d’ingénieur.
+                    L’objectif de ce parcours est double : Former durant 7 mois d’études à l’UBO, des ingénieurs en
+                    développement logiciel (conception, production et maintenance) pour des projets où une partie des
+                    travaux sont réalisées en France et une
+                    autre partie au Maroc dans une perspective d’équipe « étendue » collaborative Permettre d’acquérir
+                    une 1ère expérience professionnelle dans une entreprise internationale via un stage de 6 mois en
+                    France dans une perspective de pré-embauche
+                    au Maroc et ce, afin de mobiliser les compétences acquises au profit du développement économique du
+                    Maroc. Depuis 2015, ce double diplôme a intégré le Programme HOMERe « Haute Opportunité en
+                    Méditerranée pour le Recrutement de cadres
+                    d’excellence » labellisé par l’Union pour la Méditerranée (UpM). L'objectif du programme HOMERe
+                    rejoint celui du parcours DOSI dans les Technologies de l’Information et de la Communication : «
+                    Renforcer l’employabilité des jeunes de
+                    la rive sud de la Méditerranée au travers d’un stage international de fin d’études de 6 mois dans
+                    une entreprise à dimension méditerranéenne, et faciliter ainsi leur accès à un premier emploi
+                    qualifié dans leur pays d’origine grâce
+                    aux compétences acquises et contacts établis » En s’appuyant sur le programme HOMERe, la coopération
+                    internationale du parcours DOSI devrait s’élargir à d’autres pays du sud de la Méditerranée tels que
+                    le Liban et l’Egypte.
+                </article>
             </div>
             <div class="p-top-20">
                 <h3>FACULTÉ DES SCIENCES ET TECHNIQUES DE TANGER,MAROC (FSTT)</h3>
@@ -187,17 +357,17 @@
     </div>
     <footer>
         <div class="footer" itemscope itemtype="https://schema.org/Person">
-            <i class="fa fa-linkedin-square" style="font-size:36px">
+            <i class="fab fa-linkedin" style="font-size:25px">
                 <a href="https://bit.ly/3p44ybX" itemprop="url">Hamiani</a>
             </i>
-            <i class="fa fa-github-square" style="font-size:36px">
+            </i>
+            <i class="fab fa-github" style="font-size:25px">
                 <a href="https://bit.ly/3n3nsNg" itemprop="url">Hamiani</a>
             </i>
-            <i class="fa fa-facebook-square" style="font-size: 36px;">
+            <i class="fab fa-facebook" style="font-size: 25px;">
                 <a href="https://bit.ly/3AONqcn" itemprop="url">Hamiani</a>
             </i>
         </div>
-
     </footer>
 </body>
 
